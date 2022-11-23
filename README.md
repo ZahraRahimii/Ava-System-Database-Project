@@ -10,9 +10,9 @@ First, we must have a general view of the entities and the relationship between 
 <img src = "https://user-images.githubusercontent.com/93929227/203502176-a9276627-75a7-4156-86c0-28a7f3794052.png" width = "70%" height = "70%">
 <p/>
 
-After that we came to these entities:
-* user
-* message
+After that we came to these entities:                                               Some of the most important featuers and capabilites are:
+* user                                                                              * send_message
+* message                                                                           * get_messages_senders_list
 * login
 * folowing
 * blocking
