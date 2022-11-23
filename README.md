@@ -30,7 +30,10 @@ In this phase we make procedure for all of our capabilites such as:
   * ava_with_specific_hashtag8
   * get_comments_of_ava
   * ...
+
 Then we create triggers to activate when a statement inserts, updates, or deletes rows in the our table as below comes our triggers:
 * create hashtag and ava_log after ava: find hashtag in the ave content and add it to hashatgs, then save the user's log
 * after create account: save the user's log after creating acount
+
+After, we implement a user interface under the console so that we can communicate with the database through it. Additionaly I implemented a graphical user interface for this system.
 
