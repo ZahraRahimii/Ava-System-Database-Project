@@ -14,6 +14,7 @@ All entities are below:
 * ava
 * ava_like
 * ave_hashtag
+
 Some of the most important featuers and capabilites are:
 * send_message
 * get_messages_senders_list
