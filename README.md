@@ -5,7 +5,10 @@ Here are the step of implementing database of AVA application (perfrom same as T
 * phase 2: Define procesdures and triggers and implement user interface (UI) and graphical user interface (GUI)
 
 ## Define entities and features
-All entities are below:
+First, we must have a general view of the entities and the relationship between them, which can be achieved with ERD model.
+![Untitled](https://user-images.githubusercontent.com/93929227/203502176-a9276627-75a7-4156-86c0-28a7f3794052.png)
+
+After that we came to these entities:
 * user
 * message
 * login
