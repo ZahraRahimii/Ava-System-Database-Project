@@ -23,3 +23,14 @@ Some of the most important featuers and capabilites are:
 * get_comments_of_ava: Each user of the system must be able to receive comments of one voice. If the sender has blocked the receiving user's voice, the received list will be empty
 * add_comment: Every user of the system must have the ability to comment on the voices of other users who have not blocked him. Each comment is saved as a vote, so it is possible to comment on another comment
 
+## Define procesdures and triggers and implement user interface (UI) and graphical user interface (GUI)
+In this phase we make procedure for all of our capabilites such as:
+  * send_message
+  * likes_number
+  * ava_with_specific_hashtag8
+  * get_comments_of_ava
+  * ...
+Then we create triggers to activate when a statement inserts, updates, or deletes rows in the our table as below comes our triggers:
+* create hashtag and ava_log after ava: find hashtag in the ave content and add it to hashatgs, then save the user's log
+* after create account: save the user's log after creating acount
+
